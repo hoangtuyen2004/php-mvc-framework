@@ -5,12 +5,15 @@
     "autoload": {
         "psr-4": {
             "MVC\\": "src/"
-        }
+        },
+        "files": [
+            "env.php"
+        ]
     },
     "authors": [
         {
-            "name": "Belgacem Khadher",
-            "email": "devbekh@gmail.com"
+            "name": "Tuyến Hoàng",
+            "email": "ductuyen772@gmail.com"
         }
     ],
     "require": {}

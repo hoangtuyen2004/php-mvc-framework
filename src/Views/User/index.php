@@ -7,8 +7,8 @@
 <body>
     <h1>User List</h1>
     <ul>
-        <?php foreach ($users as $user): ?>
-            <li><?= $user->name ?> (<?= $user->email ?>)</li>
+        <?php foreach ($user as $us): ?>
+            <li><?= $us['name'] ?> (<?= $us['email'] ?>)</li>
         <?php endforeach; ?>
     </ul>
 </body>
